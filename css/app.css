@@ -2,47 +2,76 @@ body{
     box-sizing: border-box;
     font-family: Raleway, sans-serif;	
     font-size: 16px;
-  }
-  .left{
-    display: flex;
-    justify-content: space-between;
-    }
-  a{
-    text-decoration: none;
-    color: black;
-  }
-  .space{
-    margin-right: 20px;
-    margin-left: 20px;
-  }
-  .hero{
-    width: 100%;
-    height: 580px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .search{
-    padding: 10px;
-    width: 300px;
-    border: solid 1px;
-    border-radius: 5px 0px 0px 5px;
-  }
-  button{
-    font-size: 0.9rem;
-    padding: 10px;
-    border: solid 1px;
-    border-radius: 0px 5px 5px 0px;
-  }
-  footer{
-    display: flex;
-    flex-direction:reverse;
-    align-items: flex-start;
-  }
-  .left-down{
-    margin-right: 20px;
-  }
-
-  hr{
-    border: solid 1px;
-  }
+}
+.left{
+  display: flex;
+  justify-content: space-between;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.space{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.hero{
+  width: 100%;
+  height: 580px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  font-size: 0.9rem;
+  padding: 9px;
+  border: 1px solid #ccc thin;
+  border-radius: 0px 5px 5px 0px;
+}
+.left-down{
+  margin-right: 20px;
+}
+hr{
+  border: solid 1px thin;
+  margin-top: 10px;
+}
+.form{
+  border-radius: 5px;
+  border: solid 1px;
+  padding: 30px;
+  width: 30%;
+}
+input[type=text]{
+  font-size: 0.9rem;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc thin;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  font-size: 1rem;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: grey;
+  color: black;
+}
+input[type=search]{
+  font-size: 0.9rem;
+  padding: 9px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc thin;
+  width: 300px;
+  border-radius: 5px 0px 0px 5px;
+}

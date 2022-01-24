@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/app.css">
-    <title>Home | AppSearch</title>  
+    <title>LogIn | AppSearch</title>  
 </head>
 <body>
     <header>
@@ -22,14 +22,19 @@
         </nav>
     </header>
     <main class="hero">
-      <input type="search" name="search" id="" class="search">
-      <button type="submit">search</i></button>
+        <div class="form">
+            <form action="/action_page.php">
+                <span class="material-icons">email</span>
+                <input type="text" id="email" name="email" placeholder="Email..">
+                <span class="material-icons">lock</span>
+                <input type="text" id="password" name="password" placeholder="Password..">
+                <input type="submit" value="Submit">
+            </form>
+          </div>
     </main>
     <hr>
     <footer>
-      <p id="date">&copy;2022</p>
-      
+      <p id="date">&copy;2022</p> 
     </footer>
 </body>
 </html>
-
