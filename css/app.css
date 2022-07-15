@@ -17,6 +17,7 @@ a{
   margin-left: 20px;
 }
 .hero{
+  margin-top:10px;
   width: 100%;
   height: 580px;
   display: flex;
