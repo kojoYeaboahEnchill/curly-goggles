@@ -2,6 +2,7 @@ body{
     box-sizing: border-box;
     font-family: Raleway, sans-serif;	
     font-size: 16px;
+    padding:10px;
 }
 .left{
   display: flex;
